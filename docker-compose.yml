@@ -45,7 +45,7 @@ services:
 
     # queue
     queue:
-        image: 010107/forma-te-imagen-docker:dev
+        image: 010107/forma-te-imagen-docker
         restart: unless-stopped
         command: "php artisan queue:work"
         volumes:
