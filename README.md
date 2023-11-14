@@ -22,6 +22,10 @@ cp -rf setup-docker-laravel/* app-laravel/
 cd app-laravel/
 ```
 
+```sh
+rm -rf .git
+```
+
 
 Crie o Arquivo .env
 ```sh
